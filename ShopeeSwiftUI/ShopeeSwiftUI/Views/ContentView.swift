@@ -13,7 +13,7 @@ struct ContentView: View {
             ZStack{
                 VStack{
                     //search, chat and cart
-                    SearchItemsView()
+                    HeaderView()
                     //carousell
                     //home
                     //ui list

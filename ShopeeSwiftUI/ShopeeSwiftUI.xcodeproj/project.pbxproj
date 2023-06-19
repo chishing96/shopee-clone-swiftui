@@ -16,6 +16,7 @@
 		46D680C82A40A5D7003BBE0F /* ShopeeSwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D680C72A40A5D7003BBE0F /* ShopeeSwiftUIUITestsLaunchTests.swift */; };
 		46D680DB2A40AD7D003BBE0F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D680DA2A40AD7D003BBE0F /* User.swift */; };
 		46D680DD2A40B19F003BBE0F /* SearchItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D680DC2A40B19F003BBE0F /* SearchItemsView.swift */; };
+		46D680DF2A40B878003BBE0F /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D680DE2A40B878003BBE0F /* HeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		46D680C72A40A5D7003BBE0F /* ShopeeSwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopeeSwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		46D680DA2A40AD7D003BBE0F /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		46D680DC2A40B19F003BBE0F /* SearchItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchItemsView.swift; sourceTree = "<group>"; };
+		46D680DE2A40B878003BBE0F /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +140,7 @@
 			children = (
 				46D680AC2A40A5D5003BBE0F /* ContentView.swift */,
 				46D680DC2A40B19F003BBE0F /* SearchItemsView.swift */,
+				46D680DE2A40B878003BBE0F /* HeaderView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -287,6 +290,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46D680DF2A40B878003BBE0F /* HeaderView.swift in Sources */,
 				46D680DB2A40AD7D003BBE0F /* User.swift in Sources */,
 				46D680AD2A40A5D5003BBE0F /* ContentView.swift in Sources */,
 				46D680AB2A40A5D5003BBE0F /* ShopeeSwiftUIApp.swift in Sources */,
