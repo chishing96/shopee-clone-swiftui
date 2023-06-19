@@ -17,7 +17,7 @@ struct HeaderView: View {
             ZStack {
                 TabView(selection: $selection){
                     ForEach(0..<images.count) {
-                        i in Image("\(images[i])").resizable()
+                        i in Image("\(images[i])")
                     }
                 }.tabViewStyle(PageTabViewStyle())
                     .indexViewStyle(PageIndexViewStyle(backgroundDisplayMode: .always))
@@ -26,10 +26,8 @@ struct HeaderView: View {
                             selection = selection < images.count ? selection + 1 : 0
                         }
                     })
-                SearchItemsView()
-                Spacer()
             }
-        }.frame(height: 300)
+        }
     }
 }
 

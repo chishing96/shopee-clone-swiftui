@@ -10,18 +10,12 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            ZStack{
-                VStack{
-                    //search, chat and cart
-                    HeaderView()
-                    //carousell
-                    //home
-                    //ui list
-                    //other items
-                }
+            ZStack {
+                HeaderView().frame(height: 250)
+                SearchItemsView()
             }
             Spacer()
-        }
+        }.ignoresSafeArea(edges: .all)
     }
 }
 
